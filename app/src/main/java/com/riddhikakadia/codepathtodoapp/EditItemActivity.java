@@ -21,6 +21,8 @@ public class EditItemActivity extends AppCompatActivity {
         itemEditText = (EditText) findViewById(R.id.edit_item_text);
         editButton = (Button) findViewById(R.id.edit_item_button);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         Intent intent = getIntent();
         if (intent.getExtras() != null) {
             String itemValue = intent.getExtras().getString(MainActivity.ITEM_VALUE);
