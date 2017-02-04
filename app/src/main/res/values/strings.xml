@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CodePathTodoApp</string>
+    <string name="hint_input_list_item">Input list item</string>
+    <string name="add_item_button_text">Add</string>
+    <string name="edit_item_button_text">Save</string>
+    <string name="edit_item_header_text">Edit Item Below: </string>
+    <string name="placeholder_hint">No data</string>
+</resources>
