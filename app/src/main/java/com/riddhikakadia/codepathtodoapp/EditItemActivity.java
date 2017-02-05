@@ -36,7 +36,8 @@ public class EditItemActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String newItem = itemEditText.getText().toString();
-                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                //Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                Intent intent = new Intent();
                 intent.putExtra(MainActivity.ITEM_VALUE, newItem);
                 intent.putExtra(MainActivity.ITEM_POSITION, position);
                 setResult(MainActivity.RESULT_OK, intent);
